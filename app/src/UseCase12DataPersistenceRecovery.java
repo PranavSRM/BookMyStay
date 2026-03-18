@@ -23,6 +23,7 @@ public class UseCase12DataPersistenceRecovery {
         FilePersistenceService persistenceService =
                 new FilePersistenceService();
 
+
         // Load previous state
         persistenceService.loadInventory(inventory, filePath);
 
